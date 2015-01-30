@@ -7,6 +7,10 @@ scalaVersion := "2.11.4"
 libraryDependencies ++= Seq(
   jdbc,
   javaEbean,
+  anorm,
+  cache,
+  ws,
+  filters,
   "org.webjars" % "jquery" % "2.1.1",
   "org.webjars" % "bootstrap" % "3.3.1"
 )     
